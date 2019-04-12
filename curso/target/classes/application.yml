@@ -1,0 +1,38 @@
+server:
+  port: 7082
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:7081/eureka/
+    register-with-eureka: true
+
+
+spring:
+  application:
+    name: curso
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        database: postgresql
+        temp:
+          use_jdbc_metadata_defaults: false
+        database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  jmx:
+    enabled: false
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/micros
+    username: postgres
+    password: 12345678
+    
+jwt:
+  config:
+    type: signed

@@ -1,0 +1,10 @@
+com\dpaula\microservices\core\model\Curso$CursoBuilder.class
+com\dpaula\microservices\core\property\JwtConfiguration$Header.class
+com\dpaula\microservices\core\model\Curso.class
+com\dpaula\microservices\core\model\ApplicationUser$ApplicationUserBuilder.class
+com\dpaula\microservices\core\model\ApplicationUser.class
+com\dpaula\microservices\core\repository\CursoRepository.class
+com\dpaula\microservices\core\repository\ApplicationUserRepository.class
+META-INF\spring-configuration-metadata.json
+com\dpaula\microservices\core\model\AbstractEntity.class
+com\dpaula\microservices\core\property\JwtConfiguration.class
