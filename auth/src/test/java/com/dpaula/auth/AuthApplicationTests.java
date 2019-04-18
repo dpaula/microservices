@@ -16,6 +16,6 @@ public class AuthApplicationTests {
 
 	@Test
     public void test() {
-        System.out.println(new BCryptPasswordEncoder().encode("dpaula"));
+        System.out.println(new BCryptPasswordEncoder().encode("12345678"));
     }
 }
